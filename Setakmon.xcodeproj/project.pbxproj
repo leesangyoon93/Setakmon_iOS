@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6220FB71E7D83BCABFE7A0 /* Pods_Setakmon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E95636E1ACA493E555C7ACF /* Pods_Setakmon.framework */; };
+		536AF7F51F402A5A00D42F14 /* WasherRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536AF7F41F402A5A00D42F14 /* WasherRoomModel.swift */; };
+		536AF7FB1F4041AA00D42F14 /* WasherUpdateDeleagte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536AF7FA1F4041AA00D42F14 /* WasherUpdateDeleagte.swift */; };
+		536AF7FD1F40452600D42F14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536AF7FC1F40452600D42F14 /* MainViewController.swift */; };
 		539B30BE1F2D829700938F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B30BD1F2D829700938F4E /* AppDelegate.swift */; };
-		539B30C01F2D829700938F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B30BF1F2D829700938F4E /* ViewController.swift */; };
 		539B30C31F2D829700938F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539B30C11F2D829700938F4E /* Main.storyboard */; };
 		539B30C51F2D829700938F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539B30C41F2D829700938F4E /* Assets.xcassets */; };
 		539B30C81F2D829700938F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539B30C61F2D829700938F4E /* LaunchScreen.storyboard */; };
+		539B30D01F2D82D700938F4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 539B30CF1F2D82D700938F4E /* GoogleService-Info.plist */; };
+		539B30D41F2D8F9200938F4E /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B30D31F2D8F9200938F4E /* MainTableViewCell.swift */; };
+		539B30D61F2D936D00938F4E /* Washer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B30D51F2D936D00938F4E /* Washer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14A2B1418480B33D85C11F4C /* Pods-Setakmon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setakmon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setakmon/Pods-Setakmon.release.xcconfig"; sourceTree = "<group>"; };
+		4E95636E1ACA493E555C7ACF /* Pods_Setakmon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setakmon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536AF7F41F402A5A00D42F14 /* WasherRoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasherRoomModel.swift; sourceTree = "<group>"; };
+		536AF7FA1F4041AA00D42F14 /* WasherUpdateDeleagte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasherUpdateDeleagte.swift; sourceTree = "<group>"; };
+		536AF7FC1F40452600D42F14 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		539B30BA1F2D829700938F4E /* Setakmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Setakmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539B30BD1F2D829700938F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		539B30BF1F2D829700938F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		539B30C21F2D829700938F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		539B30C41F2D829700938F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539B30C71F2D829700938F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		539B30C91F2D829700938F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539B30CF1F2D82D700938F4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		539B30D31F2D8F9200938F4E /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		539B30D51F2D936D00938F4E /* Washer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Washer.swift; sourceTree = "<group>"; };
+		8D4F1887BF452E9A6AD21497 /* Pods-Setakmon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setakmon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Setakmon/Pods-Setakmon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6220FB71E7D83BCABFE7A0 /* Pods_Setakmon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				539B30BC1F2D829700938F4E /* Setakmon */,
 				539B30BB1F2D829700938F4E /* Products */,
+				53E3E733D20C1D2C72AC2299 /* Pods */,
+				7CE8FF84672442C98312A26D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,36 @@
 		539B30BC1F2D829700938F4E /* Setakmon */ = {
 			isa = PBXGroup;
 			children = (
+				539B30CF1F2D82D700938F4E /* GoogleService-Info.plist */,
 				539B30BD1F2D829700938F4E /* AppDelegate.swift */,
-				539B30BF1F2D829700938F4E /* ViewController.swift */,
 				539B30C11F2D829700938F4E /* Main.storyboard */,
 				539B30C41F2D829700938F4E /* Assets.xcassets */,
 				539B30C61F2D829700938F4E /* LaunchScreen.storyboard */,
 				539B30C91F2D829700938F4E /* Info.plist */,
+				539B30D31F2D8F9200938F4E /* MainTableViewCell.swift */,
+				539B30D51F2D936D00938F4E /* Washer.swift */,
+				536AF7F41F402A5A00D42F14 /* WasherRoomModel.swift */,
+				536AF7FA1F4041AA00D42F14 /* WasherUpdateDeleagte.swift */,
+				536AF7FC1F40452600D42F14 /* MainViewController.swift */,
 			);
 			path = Setakmon;
+			sourceTree = "<group>";
+		};
+		53E3E733D20C1D2C72AC2299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F1887BF452E9A6AD21497 /* Pods-Setakmon.debug.xcconfig */,
+				14A2B1418480B33D85C11F4C /* Pods-Setakmon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CE8FF84672442C98312A26D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E95636E1ACA493E555C7ACF /* Pods_Setakmon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 539B30CC1F2D829700938F4E /* Build configuration list for PBXNativeTarget "Setakmon" */;
 			buildPhases = (
+				C48144FDF04B4E6AFC7829BA /* [CP] Check Pods Manifest.lock */,
 				539B30B61F2D829700938F4E /* Sources */,
 				539B30B71F2D829700938F4E /* Frameworks */,
 				539B30B81F2D829700938F4E /* Resources */,
+				AC399BECCD6ADF882AE1EDE8 /* [CP] Embed Pods Frameworks */,
+				CF3A9040997839623ED5E9D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539B30C81F2D829700938F4E /* LaunchScreen.storyboard in Resources */,
+				539B30D01F2D82D700938F4E /* GoogleService-Info.plist in Resources */,
 				539B30C51F2D829700938F4E /* Assets.xcassets in Resources */,
 				539B30C31F2D829700938F4E /* Main.storyboard in Resources */,
 			);
@@ -132,13 +175,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC399BECCD6ADF882AE1EDE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setakmon/Pods-Setakmon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48144FDF04B4E6AFC7829BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3A9040997839623ED5E9D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setakmon/Pods-Setakmon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		539B30B61F2D829700938F4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				539B30C01F2D829700938F4E /* ViewController.swift in Sources */,
+				536AF7F51F402A5A00D42F14 /* WasherRoomModel.swift in Sources */,
+				539B30D61F2D936D00938F4E /* Washer.swift in Sources */,
+				539B30D41F2D8F9200938F4E /* MainTableViewCell.swift in Sources */,
 				539B30BE1F2D829700938F4E /* AppDelegate.swift in Sources */,
+				536AF7FB1F4041AA00D42F14 /* WasherUpdateDeleagte.swift in Sources */,
+				536AF7FD1F40452600D42F14 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +354,7 @@
 		};
 		539B30CD1F2D829700938F4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4F1887BF452E9A6AD21497 /* Pods-Setakmon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MN225LJUH9;
@@ -272,6 +368,7 @@
 		};
 		539B30CE1F2D829700938F4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A2B1418480B33D85C11F4C /* Pods-Setakmon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MN225LJUH9;
@@ -302,6 +399,7 @@
 				539B30CE1F2D829700938F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
